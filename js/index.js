@@ -22,15 +22,17 @@ console.log(isMentor)           // Output: false
 console.log(typeof isMentor)    // Output: "boolean"
 
 // Create an Object
-const person = {};
-
-// Add Object Properties
-person.firstName = "Martin";
-person.lastName = "Otis";
-person.age = 51;
-person.eyeColor = "hazel";
+const person = {
+    // Add Object Properties
+    firstName: "Martin",
+    lastName: "Otis",
+    age: 51,
+    eyeColor: "hazel",
+};
 
 console.log(person.firstName + " is " + person.age + " years old.");
 
 */
+
+
 
