@@ -9,26 +9,37 @@ const submissionBtn = document.getElementById("submission-btn")
 
 // Declare your variables here.
 
-const resolution = "is to learn more Javascript";
+const resolution = "is to learn more JavaScript.";
 
 const currentYear = "2025";
 
+let willMeetResolution = true;
+
 function updateYear() {
     // write the logic
+    yearElement.innerText = currentYear;
 
 }
 
 function updateResolution() {
     // Update this function 
+    resolutionElement.innerText = resolution;
+}
 
+// added this function so that the page renders properly with all the info
+function updateWillMeetResolution() {
+    willMeetResolutionElement.innerText = willMeetResolution ? "yes." : "no.";
 }
 
 function render() {
     // Finish writing this function
+    updateYear();
+    updateResolution();
+    updateWillMeetResolution();
 
 }
 
 submissionBtn.addEventListener("click", function () {
     // Finish writing this function
-
+    render();
 })
