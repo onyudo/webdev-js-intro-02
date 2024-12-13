@@ -11,6 +11,8 @@ const submissionBtn = document.getElementById("submission-btn")
 
 const resolution = "is to learn more Javascript";
 
+const currentYear = "2025";
+
 function updateYear() {
     // write the logic
 
