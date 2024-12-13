@@ -26,7 +26,7 @@ function updateResolution() {
     resolutionElement.innerText = resolution;
 }
 
-// added this function so that the page renders properly with all the info
+// added this function with a ternary operator so that the page renders properly with all the info
 function updateWillMeetResolution() {
     willMeetResolutionElement.innerText = willMeetResolution ? "yes." : "no.";
 }
@@ -35,6 +35,7 @@ function render() {
     // Finish writing this function
     updateYear();
     updateResolution();
+    //made sure to include this to render the output to the page
     updateWillMeetResolution();
 
 }
